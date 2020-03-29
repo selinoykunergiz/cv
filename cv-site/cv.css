@@ -1,0 +1,731 @@
+
+/* .title h1{
+    padding: 0;
+    font-family: 'HelveticaNeueLTStd-Hv';
+    color: #000;
+    line-height: 100px;
+    margin-bottom: 0;
+}
+
+.title h2{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #818285;
+    text-transform: uppercase;
+    padding: 0 0 0 5px;
+} */
+
+/* .graduation h3, .github h3, .aboutme h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: #4dc0bf;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.section-date{
+    font-family: 'MyriadPro-Regular';
+    color: #d1d0d1;
+    font-size: 19px;
+    width: 100px;
+    float: left;
+    position: relative;
+}
+
+.section-university{
+    font-family: 'MyriadPro-Regular';
+    color: #8a8c8f;
+
+} */
+
+/* .list-graduation, .list-job, .project, .courses2017, .experience{
+    list-style-type:none;
+}
+
+.job h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 31px;
+    color: #4dc0bf;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.speciality, .software, .software2,.software3{
+    font-family: 'MyriadPro-Regular';
+    color: #58585a;
+    width: 100%;
+}
+
+.explanation, .explanation-intern{
+    font-family: 'MyriadPro-Regular';
+    color: #8a8c8f;
+    width: 75%;
+    text-align: justify;
+    float: right;
+}
+
+a {
+    transition: .2s;
+    font-family: 'MyriadPro-Regular';
+    color: #8a8c8f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    
+ }
+
+ .project li{
+    margin-bottom: 20px;
+    text-align: justify;
+ }
+
+ .github p, .aboutme p{
+    font-family: 'MyriadPro-Regular';
+    color: #58585a;
+ 
+ }
+
+ .experience li , .courses2017 li{
+    font-family: 'MyriadPro-Regular';
+    color: #8a8c8f;
+    margin-bottom: 2px;
+ }
+
+ .courses h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 31px;
+    color: #4dc0bf;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 0;
+} */
+
+/* .section3, .jotform,.müstesarlik,.sivil-havacilik{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.speciality, .speciality1{
+    float: left;
+}
+
+.speciality1{
+    padding-left: 5%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #818285;
+    width: 30%;
+    margin-bottom: 1%;
+}
+
+@media (max-width: 600px){
+    .container-fluid{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .title h1{
+        font-size: 50px;
+        width: 300px;
+    }
+    .section-university{
+        width: 300px;
+        font-size: 15px;
+    }
+    .speciality{
+        width: 25%;
+        font-size: 15px;
+    }
+    .speciality1{
+        width: 70%;
+        font-size: 15px;
+    }
+    .list-graduation, .list-job, .project, .courses2017, .experience{
+        padding: 0;
+    }
+
+    .explanation, .explanation-intern{
+        font-size: 14px;
+    }
+
+    .github p, .aboutme p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    a{
+        font-size: 14px;
+    }
+
+    .experience li, .courses2017 li{
+        font-size: 14px;
+    }
+ }
+
+ @media (min-width: 600px){
+    .container-fluid{
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .title h1{
+        font-size: 100px;
+    }
+    .section-university{
+        width: 700px;
+        font-size: 19px;
+    }
+    .speciality, .speciality1{
+        width: 20%;
+        font-size: 20px;
+    }
+    .explanation, .explanation-intern{
+        font-size: 19px;
+    }
+    .github p, .aboutme p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    a{
+        font-size: 19px;
+    }
+    .experience li, .courses2017 li{
+        font-size: 19px;
+    }
+ }
+
+ */
+
+
+
+
+ body{
+     margin: 0;
+ }
+
+
+
+ .topContent{
+     margin-top: 1%;
+ }
+
+ @media (max-width: 600px){
+    .image{
+        width: 100px;
+        max-width: 400px;
+        height: auto;
+        border-radius: 50%;
+        overflow: hidden;
+        left: 30%;
+        position: relative;
+     }
+
+    .list-job{
+        padding: 0;
+        margin-right: 10px;
+    }
+
+     .image img{
+         height: 22vh;
+     }
+
+     .aboutMe{
+        width: 100%;
+        background: #bcbab8;
+        float: left;
+        height: 25vh;
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+        justify-content: center;
+     }
+    
+     .graduation {
+        max-width: 100%;
+        margin-left: 10%;
+    }
+
+     .life{
+        width: 100%;
+        background: #ffbaba;
+        float: left;
+        height: 25vh;
+        margin-bottom: 1%;
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+     
+    .life .gmail, .country, .number {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: black;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+    .explanation, .project li, .courses2017 li, .skillsList li {
+        font-size: 10px;
+        list-style-type: none;
+    }
+    .skills p, .graduation h3, .job h3, .github h3, .courses h3 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .skills p {
+        text-align: center;
+        border-bottom: 1px solid #ffbaba;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .sectionTop {
+        max-width: 100%;
+        height: 40vh;
+    }
+    .skillsList, .courses2017, .company, .section-date, .section-university, .section3, .jotform, .müstesarlik, .sivil-havacilik, .github p {
+        list-style-type: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        padding: 0;
+        text-align: justify;
+        margin-right: 10px;
+    }
+    .title {
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .courses {
+        max-width: 100%;
+        margin-left: 10%;
+    }
+
+    .github {
+        padding-right: 10px;
+    }
+    .aboutMe h2 {
+        font-family: 'Quicksand', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 5px;
+        color: white;
+        font-size: 20px;
+    }
+    .aboutMe p {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        border-left: 1px solid white;
+        width: 190px;
+        margin: 0 auto;
+        color: white;
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .sectionJobs{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: 10%;
+        float: left;
+    }
+
+    .socialMedia{
+        max-width: 100%;
+        margin-left: 10%;
+      }
+     
+ } 
+ @media (min-width: 700px){
+
+ .socialMedia{
+    max-width: 100%;
+    margin-left: 10px;
+ }
+
+    .list-job{
+        padding:0;
+    }
+ 
+.title{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+ .skillsList, .courses2017, .company, .section-date, .section-university, .section3, .jotform, .müstesarlik, .sivil-havacilik, .github p{
+    list-style-type:none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    padding: 0;
+    text-align: justify;
+}
+    .sectionTop{
+        width: 100%;
+        height: 40vh;
+     }
+    
+
+.skills p{
+    text-align: center;
+    border-bottom: 1px solid #ffbaba;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+    .explanation, .project li, .courses2017 li, .skillsList li{
+        font-size: 18px;
+        list-style-type: none;
+    }
+    
+    .life .gmail, .country, .number{
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: black;
+        letter-spacing: 2px;
+        font-size: 16px;
+     }
+    .image{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 25%;
+        height: 20vh;
+        position: absolute;
+        left: 39%;
+        top: 20%;
+        z-index: 1;
+     }
+    
+     .image img{
+         height: 20vh;
+     }
+
+     .aboutMe{
+        width: 49%;
+        background: #bcbab8;
+        float: left;
+        height: 25vh;
+        margin-left: 1%;
+    
+     }
+    
+     .life{
+        width: 49%;
+        background: #ffbaba;
+        float: left;
+        height: 25vh;
+        margin-right: 1%;
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+        justify-content: center;
+
+     }
+     .skills p, .graduation h3, .job h3, .github h3, .courses h3{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .aboutMe h2 {
+        font-family: 'Quicksand', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20%;
+        letter-spacing: 5px;
+        color: white;
+        font-size: 20px;
+    }
+    .aboutMe p {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        border-left: 1px solid white;
+        width: 190px;
+        margin: 0 auto;
+        color: white;
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .allGraduation{
+        margin-left: 10px;
+    }
+    
+    .sectionJobs{
+        max-width: 100%;
+        margin-left: 10px;
+    }
+
+    .job{
+        margin-top:5%;
+        padding-right: 5%;
+    } 
+ }
+
+ @media (min-width: 1030px){
+    
+.graduation{
+    width: 40%;
+    float: left;
+    border-right: 1px solid #ffbaba;
+}
+
+.courses{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+     .sectionJobs{
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 10%;
+    float: left;
+}
+.allGraduation {
+    margin-left: 0px;
+}
+  .socialMedia{
+    width: 40%;
+    float: right;
+  }
+
+  .sectionGraduation{
+      width: 100%;
+      margin-left: 10%;
+  }
+ 
+    .job{
+        margin-top:5%;
+        border-right: 1px solid #ffbaba;
+        padding-right: 5%;
+    } 
+    .allGraduation{
+        width: 100%;
+    }
+    .list-job{
+        padding:0;
+    }
+    .job{
+        margin-top:5%;
+        border-right: 1px solid #ffbaba;
+        padding-right: 5%;
+    }
+    .aboutMe h2{
+        font-family: 'Quicksand', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20%;
+        letter-spacing: 5px;
+        color: white;
+        font-size: 30px;
+     }
+.title{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+ .skillsList, .courses2017, .company, .section-date, .section-university, .section3, .jotform, .müstesarlik, .sivil-havacilik, .github p{
+    list-style-type:none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    padding: 0;
+    text-align: justify;
+}
+    .sectionTop{
+        max-width: 100%;
+        height: 70vh;
+     }
+    
+
+.skills p{
+    text-align: center;
+    border-bottom: 1px solid #ffbaba;
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+    .skills p, .graduation h3, .job h3, .github h3, .courses h3{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .explanation, .project li, .courses2017 li, .skillsList li{
+        font-size: 18px;
+        list-style-type: none;
+    }
+    
+    .life .gmail, .country, .number{
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        color: black;
+        letter-spacing: 2px;
+        font-size: 16px;
+     }
+    .image{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 45%;
+        top: 35%;
+        z-index: 1;
+     }
+    
+     .image img{
+         height: 30vh;
+     }
+
+     .aboutMe{
+        width: 49%;
+        background: #7e8d98;
+        float: left;
+        height: 50vh;
+        margin-left: 1%;
+     }
+    
+     .life{
+        width: 49%;
+        background: #ffbaba;
+        float: left;
+        height: 50vh;
+        margin-right: 1%;
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    
+     }
+     .aboutMe p{
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        border-left: 1px solid white;
+        width: 190px;
+        margin: 0 auto;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 2px;
+    
+     }
+ }
+
+
+
+ .life .number{
+    text-align: center;
+ }
+ .life .number a{
+    transition: .2s;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+ }
+
+
+.project{
+    padding: 0;
+}
+.courses2017{
+    line-height: 30px;
+}
+
+.github{
+    padding-right: 5%;
+}
+
+
+.skillsList li i{
+    color: #ffbaba;
+    margin-right: 2%;
+
+}
+
+.skillsList li {
+    margin-bottom: 1%;
+}
+
+.graduation ul, .list-job{
+    list-style-type: none;
+}
+
+.section3, .jotform, .mustesarlik, .sivil-havacilik{
+    width: 100%;
+    text-align: justify;
+}
+
+
+a {
+    transition: .2s;
+    font-family: 'Quicksand', sans-serif;
+    color: #7e8d98;
+    text-decoration: none;
+}
+
+a:hover {
+      color: #ffbaba;
+    
+ }
+
+ .clearfix {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  .list-graduation li{
+    width: 100%;
+  }
+
+  .list-graduation{
+    padding: 0;
+  }
+
+.sectionSkills{
+    width: 100%;
+}
+
+  .skillsList{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .skillsList li{
+    float: left;
+    padding: 10px;
+
+  }
+
+  .skillsList li span{
+    border: 1px solid #7e8d98;
+    padding: 4px;
+  }
+
+
+.jobsContent{
+    margin-top: 5%;
+}
+
+
+.project li{
+     margin-bottom: 2%;
+}
+

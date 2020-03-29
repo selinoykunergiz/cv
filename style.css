@@ -1,0 +1,239 @@
+.title h1, .section-paragraph p, .keywords ,h2, p, .work , h2 p, .section5 p{
+    color: black;
+    font-family: "stolzl";
+}
+
+.contact h2, .keywords h2, .work h2 {
+    font-size: 11px;
+    font-family: "stolzl";
+}
+.contact p , a{
+    color: black;
+    font-size: 18px;
+    font-family: "stolzl";
+}
+ 
+.container{
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 15%;
+}
+
+.row{
+    display: block;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.title{
+    margin-top: 75px;
+    font-weight: 100;
+}
+
+.title h1,.keywords h2,.work h2,.contact h2{ 
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-family: "stolzl";
+}
+
+.section-paragraph p{
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 37px;
+    /* width: 17%; */
+    font-family: "stolzl";
+}
+.section-paragraph, .contact, .keywords , .work, .section-paragraph{
+margin-bottom: 100px;
+}
+a{
+    color: black;
+    transition: .2s;
+    text-decoration: none;
+}
+
+
+.contact p{
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "stolzl";
+}
+
+.work p, .keywords p{
+    margin:5px;
+    margin-left: 0;
+    font-family: "stolzl";
+}
+
+.section5 p{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "stolzl";
+}
+
+a:hover {
+    color:red;
+ }
+
+ @media (max-width: 600px){
+    .section-paragraph p {
+        width: 200px;    
+        font-family: "stolzl";
+    }
+ }
+
+ @media (min-width: 600px){
+    .section-paragraph p{
+        width: 300px;
+        font-family: "stolzl";
+    }
+ }
+
+
+ @media (max-width: 600px){
+    .section5 p {
+        width: 200px;
+        font-family: "stolzl";
+    }
+ }
+
+ @media (min-width: 600px){
+    .section5 p{
+        width: 360px;
+        font-family: "stolzl";
+    }
+ }
+
+
+
+
+ @media (max-width: 600px){
+    .title h1 {
+        font-size: 15px;
+        font-family: "stolzl";
+    }
+ }
+
+ @media (min-width: 600px){
+    .title h1{
+        font-size: 18px;
+        font-family: "stolzl";
+    }
+ }
+
+ /* .button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    font-family: "stolzl";
+  } */
+
+:root {
+    --red-hue: 360;
+    --blue-hue: 240;
+    --green-hue: 120;
+
+    --main-hue: var(--red-hue);
+    --theme-darkness: 1;
+
+    /* --nav-bg-color: hsl(var(--main-hue), 50%, 50%);
+    --nav-text-color: hsl(var(--main-hue), 50%, 10%); */
+    --container-bg-color: hsl(var(--main-hue), 50%, 95%);
+
+    --content-text-color: hsl(var(--main-hue), 50%, 50%);
+    --title-color: hsl(--main-hue, 50%, 20%);
+    --footer-bg-color: hsl(var(--main-hue), 93%, 88%);
+
+    --button-text-color: hsl(var(--main-hue), 50%, 20%);
+                filter: brightness(var(--theme-darkness));
+}
+
+:root[theme='dark'] {
+    --red-hue: 360;
+    --blue-hue: 240;
+    --green-hue: 120;
+
+    --main-hue: var(--blue-hue);
+    --theme-darkness: 1;
+
+    /* --nav-bg-color: hsl(var(--main-hue), 50%, 90%);
+    --nav-text-color: hsl(var(--main-hue), 50%, 10%); */
+    --container-bg-color: hsl(var(--main-hue), 50%, 95%);
+
+
+    --content-text-color: hsl(var(--main-hue), 50%, 50%);
+    --title-color: hsl(--main-hue, 50%, 20%);
+    --footer-bg-color: hsl(var(--main-hue), 93%, 88%);
+
+    --button-text-color: hsl(var(--main-hue), 50%, 20%);
+
+    filter: invert(1) brightness(var(--theme-darkness));
+}
+div.container > div > label,input[type=range]{
+    display: block;
+}
+    
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
+    “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0;
+    max-width: 100%;
+    background: hsl(0, 0%, 100%);
+    padding: 4rem;
+}
+
+p.content {
+    padding: 0.7rem;
+    font-size: 0.7rem;
+    color: var(--content-text-color)
+}
+
+.container h2.title {
+    padding: 1rem;
+    color: var(--title-color)
+}
+
+input[type=button] {
+    /* color: var(--button-text-color); */
+    color: hsl(0, 2%, 73%);
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid #bcb9b9;
+    background: white;
+    float: right;
+    font-family: "stolzl";
+}
+    
